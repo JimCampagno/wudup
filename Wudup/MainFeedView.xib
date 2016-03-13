@@ -29,7 +29,7 @@
                             </constraints>
                         </view>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4iZ-8r-pwQ">
-                            <rect key="frame" x="0.0" y="10" width="484" height="354"/>
+                            <rect key="frame" x="0.0" y="10" width="484" height="344"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="250" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="KzP-Yc-8Gs" userLabel="LeoStackView">
                                     <rect key="frame" x="0.0" y="0.0" width="484" height="86"/>
@@ -54,26 +54,26 @@
                                     <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="248" verticalCompressionResistancePriority="748" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="IzM-me-kXd">
-                                    <rect key="frame" x="0.0" y="86" width="484" height="268"/>
+                                    <rect key="frame" x="0.0" y="86" width="484" height="258"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="camera" translatesAutoresizingMaskIntoConstraints="NO" id="OmT-fR-auH">
-                                            <rect key="frame" x="8" y="0.0" width="35" height="268"/>
+                                            <rect key="frame" x="8" y="0.0" width="35" height="258"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="35" id="8V6-EK-60A"/>
                                             </constraints>
                                         </imageView>
                                         <view contentMode="scaleToFill" horizontalHuggingPriority="247" verticalHuggingPriority="247" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="oI9-c9-2ij">
-                                            <rect key="frame" x="51" y="0.0" width="425" height="268"/>
+                                            <rect key="frame" x="51" y="0.0" width="425" height="258"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBP-q8-BZb">
-                                                    <rect key="frame" x="160" y="119" width="105" height="30"/>
+                                                    <rect key="frame" x="160" y="114" width="105" height="30"/>
                                                     <state key="normal" title="Tap Me Bottom"/>
                                                     <connections>
                                                         <action selector="tapMe:" destination="-1" eventType="touchUpInside" id="IyI-PJ-wBX"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiU-Tq-z1p">
-                                                    <rect key="frame" x="172" y="157" width="80" height="30"/>
+                                                    <rect key="frame" x="172" y="152" width="80" height="30"/>
                                                     <state key="normal" title="Tap Me Top"/>
                                                     <connections>
                                                         <action selector="bringMeBack:" destination="-1" eventType="touchUpInside" id="AwZ-HG-i5p"/>
@@ -93,11 +93,11 @@
                                 </stackView>
                             </subviews>
                         </stackView>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NCZ-1c-6Mj">
-                            <rect key="frame" x="0.0" y="364" width="484" height="30"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NCZ-1c-6Mj" customClass="ActivityChooserView" customModule="Wudup" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="354" width="484" height="40"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="30" id="lfm-Sa-YGJ"/>
+                                <constraint firstAttribute="height" constant="40" id="lfm-Sa-YGJ"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w1O-gg-1OB" userLabel="top">

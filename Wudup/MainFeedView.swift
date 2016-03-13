@@ -30,20 +30,11 @@ class MainFeedView: UIView {
     }
     
     private func commonInit() {
-        //TODO: Setup any properties?
-        
         loadMainFeedViewNib()
-        setupAllTheConstraints()
-        
-        //MARK: doing test stuff
+        setupConstraintsOfMainFeedView()
     }
     
-    @IBAction func testButton(sender: UIButton) {
-        let frame = CGRectMake(0.0, 0.0, middleBlueView.frame.width, 200)
-        let newView = UIView(frame: frame)
-        newView.backgroundColor = UIColor.redColor()
-        mainStackView.addArrangedSubview(newView)
-    }
+    //MARK: IBActions
     @IBAction func tapMe(sender: UIButton) {
         UIView.animateWithDuration(0.8, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 10.0, options: [], animations: {
             self.bottomView.hidden = true
@@ -63,9 +54,9 @@ class MainFeedView: UIView {
 //MARK: Setup of View Objects
 extension MainFeedView {
     
-    private func setupAllTheConstraints() {
-        setupConstraintsOfMainFeedView()
-        //setupMainStackViewConstraints()
+    private func loadMainFeedViewNib() {
+        NSBundle.mainBundle().loadNibNamed("MainFeedView", owner: self, options: nil)
+        self.addSubview(mainFeedView)
     }
     
     private func setupConstraintsOfMainFeedView() {
@@ -74,20 +65,6 @@ extension MainFeedView {
         mainFeedView.bottomAnchor.constraintEqualToAnchor(self.bottomAnchor).active = true
         mainFeedView.leftAnchor.constraintEqualToAnchor(self.leftAnchor).active = true
         mainFeedView.rightAnchor.constraintEqualToAnchor(self.rightAnchor).active = true
-    }
-    
-    private func setupMainStackViewConstraints() {
-        mainStackView.translatesAutoresizingMaskIntoConstraints = false
-        mainStackView.removeConstraints(mainStackView.constraints)
-        mainStackView.topAnchor.constraintEqualToAnchor(mainFeedView.topAnchor).active = true
-        mainStackView.bottomAnchor.constraintEqualToAnchor(mainFeedView.bottomAnchor).active = true
-        mainStackView.leftAnchor.constraintEqualToAnchor(mainFeedView.leftAnchor).active = true
-        mainStackView.rightAnchor.constraintEqualToAnchor(mainFeedView.rightAnchor).active = true
-    }
-    
-    private func loadMainFeedViewNib() {
-        NSBundle.mainBundle().loadNibNamed("MainFeedView", owner: self, options: nil)
-        self.addSubview(mainFeedView)
     }
     
 }

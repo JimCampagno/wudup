@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivityChooserView" customModule="Wudup" customModuleProvider="target">
+            <connections>
+                <outlet property="activityChooserView" destination="iN0-l3-epB" id="kkP-Vn-va7"/>
+                <outlet property="activityScrollView" destination="ZT0-47-9qo" id="WLL-bM-yj7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="484" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZT0-47-9qo">
+                    <rect key="frame" x="0.0" y="0.0" width="484" height="40"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="S1B-xu-EWA">
+                            <rect key="frame" x="0.0" y="0.0" width="821" height="42"/>
+                            <subviews>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ZP-98-BW0">
+                                    <rect key="frame" x="8" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="Ra1-Eh-xZj"/>
+                                        <constraint firstAttribute="height" constant="25" id="ZCv-0s-ga6"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bw-WS-DSP">
+                                    <rect key="frame" x="47" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="2AB-z4-bK6"/>
+                                        <constraint firstAttribute="height" constant="25" id="acd-Ql-Avg"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="email"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nio-Im-M6G">
+                                    <rect key="frame" x="86" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="Qs2-Oq-bya"/>
+                                        <constraint firstAttribute="height" constant="25" id="Tcc-mK-BCB"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="headphones"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhj-Zf-FLd">
+                                    <rect key="frame" x="125" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="tc3-Zd-w8z"/>
+                                        <constraint firstAttribute="width" constant="25" id="yPt-Ub-uTW"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="knife_fork_plate"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdJ-Jb-b4o">
+                                    <rect key="frame" x="164" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="FRd-G5-7Mh"/>
+                                        <constraint firstAttribute="width" constant="25" id="uIb-V4-syc"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="tv_demand"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uR9-np-DQe">
+                                    <rect key="frame" x="203" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="rty-JF-Gk3"/>
+                                        <constraint firstAttribute="height" constant="25" id="uJs-pq-kvN"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="user_chat"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osy-CK-rUe">
+                                    <rect key="frame" x="242" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="IBU-Yw-Paf"/>
+                                        <constraint firstAttribute="height" constant="25" id="yzU-Qk-Qlo"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="tv_demand"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8c-Pi-sfb">
+                                    <rect key="frame" x="281" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="KtV-om-HBW"/>
+                                        <constraint firstAttribute="width" constant="25" id="M7r-Ry-a31"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6w-0n-EBF">
+                                    <rect key="frame" x="320" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="sLU-hI-GRv"/>
+                                        <constraint firstAttribute="height" constant="25" id="y8e-KB-7sj"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7v1-yo-mCJ">
+                                    <rect key="frame" x="359" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="dyd-J1-icF"/>
+                                        <constraint firstAttribute="width" constant="25" id="uzb-l1-MYi"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lew-Fw-tqd">
+                                    <rect key="frame" x="398" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="5UF-04-7KW"/>
+                                        <constraint firstAttribute="width" constant="25" id="UIW-ou-iEd"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tmw-zt-MeK">
+                                    <rect key="frame" x="437" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="08t-Mk-JRa"/>
+                                        <constraint firstAttribute="height" constant="25" id="o1c-5G-gsN"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yS5-vD-NeB">
+                                    <rect key="frame" x="476" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="q4b-db-gQ3"/>
+                                        <constraint firstAttribute="width" constant="25" id="rzz-dW-lWl"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i80-5o-69V">
+                                    <rect key="frame" x="515" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="Ni9-vc-BNw"/>
+                                        <constraint firstAttribute="height" constant="25" id="vV2-rY-fxJ"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fv-uT-IjM">
+                                    <rect key="frame" x="554" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="EP4-g2-N7Q"/>
+                                        <constraint firstAttribute="height" constant="25" id="Lrm-vD-1dI"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogh-p2-j6D">
+                                    <rect key="frame" x="593" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="6c7-Ab-Kyr"/>
+                                        <constraint firstAttribute="width" constant="25" id="XeP-Vl-g9j"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffu-ca-EbT">
+                                    <rect key="frame" x="632" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="Uoe-0G-5PV"/>
+                                        <constraint firstAttribute="height" constant="25" id="VTN-mA-I7i"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRC-TW-p2K">
+                                    <rect key="frame" x="671" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="cBM-fO-g0d"/>
+                                        <constraint firstAttribute="width" constant="25" id="dhi-kI-Nyy"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W47-7m-0tr">
+                                    <rect key="frame" x="710" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="Awt-hX-5Dj"/>
+                                        <constraint firstAttribute="height" constant="25" id="Qxu-cX-x4q"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wl0-l3-dhT">
+                                    <rect key="frame" x="749" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="0I9-VP-WLs"/>
+                                        <constraint firstAttribute="height" constant="25" id="piE-m4-gpC"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IvD-90-Pm4">
+                                    <rect key="frame" x="788" y="8" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="1Nu-dJ-PPG"/>
+                                        <constraint firstAttribute="width" constant="25" id="AGf-kj-Wei"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Button" image="camera"/>
+                                </button>
+                            </subviews>
+                            <edgeInsets key="layoutMargins" top="8" left="8" bottom="9" right="8"/>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="S1B-xu-EWA" firstAttribute="top" secondItem="ZT0-47-9qo" secondAttribute="top" id="HlW-8a-u8F"/>
+                        <constraint firstItem="S1B-xu-EWA" firstAttribute="leading" secondItem="ZT0-47-9qo" secondAttribute="leading" id="ZZF-rn-0qH"/>
+                        <constraint firstAttribute="trailing" secondItem="S1B-xu-EWA" secondAttribute="trailing" id="g4C-XJ-Zcg"/>
+                        <constraint firstAttribute="bottom" secondItem="S1B-xu-EWA" secondAttribute="bottom" id="iGj-dV-rh8"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ZT0-47-9qo" secondAttribute="trailing" id="0Yz-Sw-gJu"/>
+                <constraint firstItem="ZT0-47-9qo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0wh-2b-dOD"/>
+                <constraint firstItem="ZT0-47-9qo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="br2-dO-rxc"/>
+                <constraint firstAttribute="bottom" secondItem="ZT0-47-9qo" secondAttribute="bottom" id="eAb-2b-r9y"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="480" y="411"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera" width="128" height="128"/>
+        <image name="email" width="128" height="128"/>
+        <image name="headphones" width="128" height="128"/>
+        <image name="knife_fork_plate" width="128" height="128"/>
+        <image name="tv_demand" width="128" height="128"/>
+        <image name="user_chat" width="128" height="128"/>
+    </resources>
+</document>
