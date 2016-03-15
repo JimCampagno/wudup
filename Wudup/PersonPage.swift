@@ -9,7 +9,12 @@ class PersonPage {
     
     var name: String
     let uniqueID: String
-    var posts = [String: [Post]]()
+    var posts = [String: [Post]]() {
+        didSet {
+            print("Did Set")
+        }
+        
+    }
     
     
     init(name: String, uniqueID: String) {
