@@ -1,10 +1,7 @@
 //
 //  AppDelegate.swift
 //  Wudup
-//
-//  Created by Jim Campagno on 3/12/16.
-//  Copyright © 2016 Gamesmith, LLC. All rights reserved.
-//
+
 
 import UIKit
 
@@ -15,7 +12,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let newPage = PersonPage(name: "Testing", uniqueID: "23")
+        newPage.test()  
         return true
     }
 

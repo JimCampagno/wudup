@@ -1,10 +1,7 @@
 //
 //  ActivityChooserView.swift
 //  Wudup
-//
-//  Created by Jim Campagno on 3/13/16.
-//  Copyright © 2016 Gamesmith, LLC. All rights reserved.
-//
+
 
 import UIKit
 
